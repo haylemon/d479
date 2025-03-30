@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - Taniti Island</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nav-links">
+        <a href="index.html"><h1>Welcome to Taniti Island</h1></a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tourist-info.html">About</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+    
+<h1 class="booking-title">Book Your Trip</h1>
+    <main>
+        <section class="booking">
+            <h2>Select Your Travel Dates</h2>
+            <label for="arrival">Arrival Date:</label>
+            <input type="date" id="arrival" name="arrival">
+            
+            <label for="departure">Departure Date:</label>
+            <input type="date" id="departure" name="departure">
+        </section>
+        
+        <section class="booking-options">
+            <h2>Choose Your Booking Options</h2>
+            <div class="option">
+                <h3>Transportation</h3>
+                <select>
+                    <option value="shuttle">Shuttle Service</option>
+                    <option value="rental">Car Rental</option>
+                    <option value="bike">Public Bus</option>
+                </select>
+            </div>
+            
+            <div class="option">
+                <h3>Accommodation</h3>
+                <select>
+                    <option value="hotel">Hotel</option>
+                    <option value="cabin">Bed and Breakfast</option>
+                    <option value="camping">Hostel</option>
+                </select>
+            </div>
+            
+            <div class="option">
+                <h3>Activities</h3>
+                <select>
+                    <option value="snorkeling">Rainforest Tour</option>
+                    <option value="hiking">Guided Volcaano Hike</option>
+                    <option value="diving">Snorkeling Tour</option>
+                </select>
+            </div>
+        </section>
+    </main>
+    <button class="book-now">Proceed to Payment</button>
+    <footer>
+        <a href="contact.html">Contact Us</a>
+        <a href="#">Social Media</a>
+        <a href="tourist-info.html">About</a>
+    </footer>
+</body>
+</html>
