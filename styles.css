@@ -193,6 +193,21 @@ button.book-now {
     margin-top: 10px;
 }
 
+#confirmation-popup {
+    display: none;
+    margin-left: 10%;
+    position: fixed;
+    z-index: 1; 
+    left: 31.5%;
+    top: 70%;
+    width: 15%; 
+    height: 15%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(227, 80, 80, 1);
+    border-radius: 5px;
+}
+
 button.book-now:hover {
     background: #005bb5;
 }
